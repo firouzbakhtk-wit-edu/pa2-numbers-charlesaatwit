@@ -36,6 +36,7 @@ public class PA2a {
         String posNumber = (countPos == 1) ? "number" : "numbers";
         String nonPosNumber = (countNonPos == 1) ? "number" : "numbers";
 
+        
         // Output results
         System.out.printf("The sum of the %d positive %s: %d%n", countPos, posNumber, sumPos);
         System.out.printf("The sum of the %d non-positive %s: %d%n", countNonPos, nonPosNumber, sumNonPos);
